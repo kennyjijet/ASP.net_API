@@ -32,7 +32,7 @@ namespace MyAPI.Controllers
             */
             MyAPITest myAPITest = new MyAPITest();
             myAPITest.MyValue = "TEST";
-            IEnumerable<MyAPITest> IElist = new IEnumerable<MyAPITest>();
+            IEnumerable<MyAPITest> IElist = new List<MyAPITest>();
             IElist.Append(myAPITest);
 
             return IElist;
